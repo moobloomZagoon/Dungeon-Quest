@@ -1,0 +1,27 @@
+;; *************** HUD_UPDATES.dat ***************
+;; HUD includes export. zaterdag 30 december 2023 17:50:40
+
+updateHudElement0:
+ RTS
+
+updateHudElement1:
+ RTS
+
+updateHudElement2:
+ RTS
+
+updateHudElement3:
+ RTS
+
+updateHudElement4:
+ RTS
+
+updateHudElement5:
+ RTS
+
+updateHudElement6:
+ RTS
+
+updateHudElement7:
+ RTS
+

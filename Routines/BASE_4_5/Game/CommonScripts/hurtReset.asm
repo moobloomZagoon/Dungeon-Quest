@@ -1,0 +1,1 @@
+PlaySound #sfx_coin
