@@ -16,6 +16,10 @@ The music was created with a tool named Famitracker.
 
 As i have used example code and assets as basis for some parts i am giving it back to the community. You cab create your own fork of the project and start using it as a basis for a game of your own.
 
+
+
+
+
 ## Table of contents 
 
 - Requirements
