@@ -62,6 +62,7 @@ Will ad links to tutorials that helped me later on.
 ## Maintainers (optional)
 Just me
 - moobloomZagoon -
-  [image](https://github.com/moobloomZagoon/Dungeon-Quest/assets/156084521/21dc429c-55b8-431c-b70c-eb722c534fef =250x250))
+<img src="http://url.to/image.png" align="left" height="50%" width="50%" >
+
 
 
