@@ -62,7 +62,7 @@ Will ad links to tutorials that helped me later on.
 ## Maintainers (optional)
 Just me
 - moobloomZagoon -
-<img src="http://url.to/image.png" align="left" height="50%" width="50%" >
+<img src="[http://url.to/image.png](https://github.com/moobloomZagoon/Dungeon-Quest/blob/main/misc/blackbox.png)https://github.com/moobloomZagoon/Dungeon-Quest/blob/main/misc/blackbox.png" align="left" height="50%" width="50%" >
 
 
 
