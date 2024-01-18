@@ -61,7 +61,7 @@ You are on your own!
 Happy coding
 
 
-## <img src="https://github.com/moobloomZagoon/Dungeon-Quest/assets/156084521/a339ca7b-5ce5-41f9-a381-0f6cc7ea9371" align="left" height="90" width="60" > FAQ
+## <img src="https://github.com/moobloomZagoon/Dungeon-Quest/assets/156084521/a339ca7b-5ce5-41f9-a381-0f6cc7ea9371" valign="top" height="50" width="30" > FAQ
 To be made
 
 **Q: How do I do/write.....**
