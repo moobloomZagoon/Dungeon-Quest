@@ -22,7 +22,7 @@ As i have used example code and assets as basis for some parts i am giving it ba
 </tr>
 </table>
 
-## &nbsp; ![image](https://github.com/moobloomZagoon/Dungeon-Quest/assets/156084521/b181f1af-7d1a-4bf6-8151-ee10090e3eb8)Table of contents 
+## ![image](https://github.com/moobloomZagoon/Dungeon-Quest/assets/156084521/b181f1af-7d1a-4bf6-8151-ee10090e3eb8)  Table of contents 
 
 - Requirements
 - Recommended modules
@@ -33,7 +33,7 @@ As i have used example code and assets as basis for some parts i am giving it ba
 - Maintainers
 
 
-## &nbsp; ![image](https://github.com/moobloomZagoon/Dungeon-Quest/assets/156084521/26f865f9-ddd3-45b7-8dbc-12860df59316) Requirements
+## ![image](https://github.com/moobloomZagoon/Dungeon-Quest/assets/156084521/26f865f9-ddd3-45b7-8dbc-12860df59316)  Requirements
 
 This code requires the following:
 
