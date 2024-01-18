@@ -44,7 +44,7 @@ This code requires the following:
 Install as you would normally install NESmaker according to the instalation instructions.
 
 
-## Configuration (required)
+## ![image](https://github.com/moobloomZagoon/Dungeon-Quest/assets/156084521/576f80f7-11e6-4de7-ae72-d4a64e3acf14)  Configuration
 
 1. Locate the instalation folder where you've installed NESmaker.
 2. Delete the folders GameEngineData and GraphicAssets.
