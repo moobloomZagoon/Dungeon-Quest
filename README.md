@@ -62,15 +62,15 @@ Happy coding
 
 
 ## <img src="https://github.com/moobloomZagoon/Dungeon-Quest/assets/156084521/a339ca7b-5ce5-41f9-a381-0f6cc7ea9371" valign="top" height="50" width="30" > FAQ
-To be made
+To be made.
+Will add links to tutorials that helped me later on.
 
-**Q: How do I do/write.....**
-Will ad links to tutorials that helped me later on.
+## <img src="https://github.com/moobloomZagoon/Dungeon-Quest/assets/156084521/9b570536-549d-4085-b4f3-682efe11bd4a" valign="top" height="50" width="30" > Maintainers
 
-## Maintainers (optional)
 Just me
 - moobloomZagoon -
-
+<br>
+<br>
 ![image](https://github.com/moobloomZagoon/Dungeon-Quest/assets/156084521/45c46f90-78b1-422a-a3a0-28b107ab387c)
 
 
