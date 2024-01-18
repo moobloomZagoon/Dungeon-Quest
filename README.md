@@ -17,7 +17,7 @@ The music was created with a tool named Famitracker.
 [project page](https://github.com/Dn-Programming-Core-Management/Dn-FamiTracker).
 [web page](https://famitracker.org/).
 
-if you want to see a shurt trailer of the game, you can find it [here](https://github.com/moobloomZagoon/Dungeon-Quest/blob/main/PWS%20Dungoen%20Quest%20trailer.mkv)
+if you want to see a shurt trailer of the game, you can find it [here](https://github.com/moobloomZagoon/Dungeon-Quest/blob/main/PWS%20Dungoen%20Quest%20trailer.mkv) it's a small .mkv video
 As i have used example code and assets as basis for some parts i am giving it back to the community. You cab create your own fork of the project and start using it as a basis for a game of your own.
 </td>
 </tr>
