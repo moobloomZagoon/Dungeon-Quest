@@ -1,6 +1,6 @@
 <h1># Dungeon Quest</h1>
 <table cellspacing="0" cellpadding="0">
-  <tr>
+  <tr align=top>
     <td>
 <img src="https://github.com/moobloomZagoon/Dungeon-Quest/blob/main/misc/blackbox.png"  >
     </td><td>
