@@ -1,0 +1,46 @@
+;; *************** MonsterList.txt ***************
+;; Monster list export. Monday, 15 January 2024 15:42:03
+
+;;;; 0	GameItem: Player1 ID=0
+;;;; 1	GameItem: sword ID=1
+;;;; 2	GameItem: enemie projectile ID=2
+;;;; 3	GameItem: sword wavey ID=3
+;;;; 4	GameItem: Health orb ID=4
+;;;; 5	GameItem: explodingprojectile ID=5
+;;;; 6	GameItem: Key ID=6
+;;;; 7	GameItem: Coin ID=7
+;;;; 8	GameItem: implotion ID=8
+;;;; 9	GameItem: slimeprojectile ID=9
+;;;; 10	GameItem: bullshit ID=10
+;;;; 11	GameItem: bighealth ID=11
+;;;; 12	GameItem: explotion ID=12
+;;;; 13	GameItem: Effect 5 ID=13
+;;;; 14	GameItem: Effect 6 ID=14
+;;;; 15	GameItem: Effect 7 ID=15
+;;;; 0	Monster: npctest ID=0
+;;;; 1	Monster: hangingbat ID=1
+;;;; 2	Monster: classic dalek ID=2
+;;;; 3	Monster: sand hopper ID=3
+;;;; 4	Monster: stone dalek ID=4
+;;;; 5	Monster: dalekish ID=5
+;;;; 6	Monster: get sword npc ID=6
+;;;; 7	Monster: blue ghoul ID=7
+;;;; 8	Monster: hades ID=8
+;;;; 9	Monster: white ghost ID=9
+;;;; 10	Monster: ashla ID=10
+;;;; 11	Monster: hard hopper ID=11
+;;;; 12	Monster: charging bu ID=12
+;;;; 13	Monster: clikkie ID=13
+;;;; 14	Monster: bigggggggg slime ID=14
+;;;; 15	Monster: triple slime ID=15
+;;;; 16	Monster: mouse ID=16
+;;;; 17	Monster: bleu rat ID=17
+;;;; 18	Monster: big sign ID=18
+;;;; 19	Monster: stone sign ID=19
+;;;; 20	Monster: moobloom ID=20
+;;;; 21	Monster: toad ID=21
+;;;; 22	Monster: single slime ID=22
+;;;; 23	Monster: getprojectilenjpc ID=23
+;;;; 24	Monster: start ID=24
+;;;; 25	Monster: press ID=25
+;;;; 26	Monster: dragonboss ID=26

@@ -1,0 +1,15 @@
+      STX temp
+    GetActionStep temp
+    CMP #$04
+    BEQ +skipScript
+    CMP #$02
+    BEQ +skipScript
+    CMP #$06
+    BEQ +skipScript
+    JMP +continue
++skipScript:
+RTS 
+  +continue
+  StartMoving temp, #%11100000
+  ChangeFacingDirection temp, #%00000011
+RTS

@@ -1,0 +1,34 @@
+;; *************** HUD_UPDATES.dat ***************
+;; HUD includes export. Monday, 15 January 2024 15:42:03
+
+updateHudElement0:
+DrawTilesDirect #HUD_BANK, HUD__0_0_STRING, #19, #1, #HUD_OFFSET
+ RTS
+
+updateHudElement1:
+DrawTilesDirect #HUD_BANK, HUD__0_1_STRING, #1, #1, #HUD_OFFSET
+ RTS
+
+updateHudElement2:
+DrawVariableTiles #1, #2, #BOX_0_ASSET_2_MAX_VALUE , #BOX_0_ASSET_2_BLANK , myHealth, #BOX_0_ASSET_2_IMAGE , #HUD_OFFSET 
+ RTS
+
+updateHudElement3:
+DrawNumber #10, #2, myCoin , #BOX_0_ASSET_3_MAX_VALUE
+ RTS
+
+updateHudElement4:
+DrawTilesDirect #HUD_BANK, HUD__0_4_STRING, #23, #1, #HUD_OFFSET
+ RTS
+
+updateHudElement5:
+DrawTilesDirect #HUD_BANK, HUD__0_5_STRING, #15, #1, #HUD_OFFSET
+ RTS
+
+updateHudElement6:
+ RTS
+
+updateHudElement7:
+DrawVariableTiles #24, #2, #BOX_0_ASSET_7_MAX_VALUE , #BOX_0_ASSET_7_BLANK , myKeys, #BOX_0_ASSET_7_IMAGE , #HUD_OFFSET 
+ RTS
+

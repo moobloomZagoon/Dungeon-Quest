@@ -1,0 +1,23 @@
+;; *************** HUD_DEFINES.dat ***************
+;; HUD defines export. Monday, 15 January 2024 15:42:03
+HUD__0_0_STRING:
+	.db #$05, #$06, #$FE
+	.db #$07, #$08, #$FF
+
+HUD__0_1_STRING:
+	.db #_H, #_E, #_A, #_L, #_T, #_H, #_SPACE, #_SPACE, #_C, #_O, #_I, #_N, #_SPACE, #$FF
+HUD__0_4_STRING:
+	.db #_K, #_E, #_Y, #_S, #$FF
+HUD__0_5_STRING:
+	.db #$05, #$06, #$FE
+	.db #$07, #$08, #$FF
+
+
+CHECK_SPRITE_ZERO = $00
+SPRITE_ZERO_INDEX = $00
+SPRITE_ZERO_HBLANK = $00
+SPRITE_ZERO_X = $00
+SPRITE_ZERO_Y = $00
+
+HUD_LOAD = $fd
+

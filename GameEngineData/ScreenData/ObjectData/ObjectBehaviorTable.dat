@@ -1,0 +1,321 @@
+;; Monster: Player1
+GameItem0_ActionTypes:		;;ActionTimer / ActionTypeID
+	.db #$12, #$00, #$50, #$00, #$22, #$32, #$12, #$30
+
+;; Monster: sword
+GameItem1_ActionTypes:		;;ActionTimer / ActionTypeID
+	.db #$20, #$20, #$20, #$20, #$00, #$00, #$00, #$00
+
+;; Monster: enemie projectile
+GameItem2_ActionTypes:		;;ActionTimer / ActionTypeID
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: sword wavey
+GameItem3_ActionTypes:		;;ActionTimer / ActionTypeID
+	.db #$50, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: Health orb
+GameItem4_ActionTypes:		;;ActionTimer / ActionTypeID
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: explodingprojectile
+GameItem5_ActionTypes:		;;ActionTimer / ActionTypeID
+	.db #$30, #$00, #$0a, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: Key
+GameItem6_ActionTypes:		;;ActionTimer / ActionTypeID
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: Coin
+GameItem7_ActionTypes:		;;ActionTimer / ActionTypeID
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: implotion
+GameItem8_ActionTypes:		;;ActionTimer / ActionTypeID
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: slimeprojectile
+GameItem9_ActionTypes:		;;ActionTimer / ActionTypeID
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$30
+
+;; Monster: bullshit
+GameItem10_ActionTypes:		;;ActionTimer / ActionTypeID
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: bighealth
+GameItem11_ActionTypes:		;;ActionTimer / ActionTypeID
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: explotion
+GameItem12_ActionTypes:		;;ActionTimer / ActionTypeID
+	.db #$60, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: Effect 5
+GameItem13_ActionTypes:		;;ActionTimer / ActionTypeID
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: Effect 6
+GameItem14_ActionTypes:		;;ActionTimer / ActionTypeID
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: Effect 7
+GameItem15_ActionTypes:		;;ActionTimer / ActionTypeID
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: npctest
+Object0_ActionTypes:
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: hangingbat
+Object1_ActionTypes:
+	.db #$60, #$20, #$03, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: classic dalek
+Object2_ActionTypes:
+	.db #$36, #$02, #$15, #$00, #$00, #$00, #$12, #$10
+
+;; Monster: sand hopper
+Object3_ActionTypes:
+	.db #$62, #$30, #$23, #$10, #$00, #$00, #$00, #$00
+
+;; Monster: stone dalek
+Object4_ActionTypes:
+	.db #$d6, #$02, #$45, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: dalekish
+Object5_ActionTypes:
+	.db #$56, #$02, #$25, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: get sword npc
+Object6_ActionTypes:
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: blue ghoul
+Object7_ActionTypes:
+	.db #$33, #$10, #$00, #$10, #$00, #$00, #$00, #$32
+
+;; Monster: hades
+Object8_ActionTypes:
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: white ghost
+Object9_ActionTypes:
+	.db #$33, #$10, #$00, #$00, #$00, #$00, #$00, #$32
+
+;; Monster: ashla
+Object10_ActionTypes:
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: hard hopper
+Object11_ActionTypes:
+	.db #$62, #$30, #$23, #$10, #$00, #$00, #$00, #$00
+
+;; Monster: charging bu
+Object12_ActionTypes:
+	.db #$52, #$30, #$c3, #$00, #$00, #$00, #$00, #$40
+
+;; Monster: clikkie
+Object13_ActionTypes:
+	.db #$46, #$22, #$26, #$00, #$00, #$22, #$26, #$00
+
+;; Monster: bigggggggg slime
+Object14_ActionTypes:
+	.db #$61, #$00, #$12, #$07, #$00, #$00, #$00, #$31
+
+;; Monster: triple slime
+Object15_ActionTypes:
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: mouse
+Object16_ActionTypes:
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: bleu rat
+Object17_ActionTypes:
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: big sign
+Object18_ActionTypes:
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: stone sign
+Object19_ActionTypes:
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: moobloom
+Object20_ActionTypes:
+	.db #$76, #$62, #$00, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: toad
+Object21_ActionTypes:
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: single slime
+Object22_ActionTypes:
+	.db #$46, #$22, #$26, #$00, #$00, #$00, #$26, #$00
+
+;; Monster: getprojectilenjpc
+Object23_ActionTypes:
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: start
+Object24_ActionTypes:
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: press
+Object25_ActionTypes:
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: dragonboss
+Object26_ActionTypes:
+	.db #$58, #$19, #$00, #$00, #$00, #$00, #$00, #$30
+
+;; Monster: NULL
+Object27_ActionTypes:
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: NULL
+Object28_ActionTypes:
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: NULL
+Object29_ActionTypes:
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: NULL
+Object30_ActionTypes:
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: NULL
+Object31_ActionTypes:
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: NULL
+Object32_ActionTypes:
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: NULL
+Object33_ActionTypes:
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: NULL
+Object34_ActionTypes:
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: NULL
+Object35_ActionTypes:
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: NULL
+Object36_ActionTypes:
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: NULL
+Object37_ActionTypes:
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: NULL
+Object38_ActionTypes:
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: NULL
+Object39_ActionTypes:
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: NULL
+Object40_ActionTypes:
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: NULL
+Object41_ActionTypes:
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: NULL
+Object42_ActionTypes:
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: NULL
+Object43_ActionTypes:
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: NULL
+Object44_ActionTypes:
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: NULL
+Object45_ActionTypes:
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: NULL
+Object46_ActionTypes:
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: NULL
+Object47_ActionTypes:
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: NULL
+Object48_ActionTypes:
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: NULL
+Object49_ActionTypes:
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: NULL
+Object50_ActionTypes:
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: NULL
+Object51_ActionTypes:
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: NULL
+Object52_ActionTypes:
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: NULL
+Object53_ActionTypes:
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: NULL
+Object54_ActionTypes:
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: NULL
+Object55_ActionTypes:
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: NULL
+Object56_ActionTypes:
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: NULL
+Object57_ActionTypes:
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: NULL
+Object58_ActionTypes:
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: NULL
+Object59_ActionTypes:
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: NULL
+Object60_ActionTypes:
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: NULL
+Object61_ActionTypes:
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: NULL
+Object62_ActionTypes:
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+
+;; Monster: NULL
+Object63_ActionTypes:
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+
+

@@ -1,0 +1,1355 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 0 GameItem: Player1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = Player1
+;; Animations = 7
+GameItem0_Lo:
+;; AnimationType = idle
+	.db <GameItem0_1, <GameItem0_1
+	.db <GameItem0_4, <GameItem0_2
+	.db <GameItem0_2, <GameItem0_2
+	.db <GameItem0_3, <GameItem0_1
+
+;; AnimationType = walking
+	.db <GameItem0_5, <GameItem0_17
+	.db <GameItem0_8, <GameItem0_17
+	.db <GameItem0_6, <GameItem0_17
+	.db <GameItem0_9, <GameItem0_17
+
+;; AnimationType = hurt
+	.db <GameItem0_10, <GameItem0_8
+	.db <GameItem0_13, <GameItem0_8
+	.db <GameItem0_11, <GameItem0_8
+	.db <GameItem0_12, <GameItem0_12
+
+;; AnimationType = item pickup
+	.db <GameItem0_14, <GameItem0_14
+	.db <GameItem0_14, <GameItem0_14
+	.db <GameItem0_14, <GameItem0_14
+	.db <GameItem0_14, <GameItem0_14
+
+;; AnimationType = inwater
+	.db <GameItem0_15, <GameItem0_15
+	.db <GameItem0_14, <GameItem0_15
+	.db <GameItem0_15, <GameItem0_8
+	.db <GameItem0_8, <GameItem0_8
+
+;; AnimationType = atack
+	.db <GameItem0_17, <GameItem0_16
+	.db <GameItem0_19, <GameItem0_16
+	.db <GameItem0_16, <GameItem0_16
+	.db <GameItem0_18, <GameItem0_16
+
+;; AnimationType = roll
+	.db <GameItem0_8, <GameItem0_8
+	.db <GameItem0_8, <GameItem0_8
+	.db <GameItem0_8, <GameItem0_8
+	.db <GameItem0_8, <GameItem0_8
+
+GameItem0_Hi:
+;; AnimationType = idle
+	.db >GameItem0_1, >GameItem0_1
+	.db >GameItem0_4, >GameItem0_2
+	.db >GameItem0_2, >GameItem0_2
+	.db >GameItem0_3, >GameItem0_1
+
+;; AnimationType = walking
+	.db >GameItem0_5, >GameItem0_17
+	.db >GameItem0_8, >GameItem0_17
+	.db >GameItem0_6, >GameItem0_17
+	.db >GameItem0_9, >GameItem0_17
+
+;; AnimationType = hurt
+	.db >GameItem0_10, >GameItem0_8
+	.db >GameItem0_13, >GameItem0_8
+	.db >GameItem0_11, >GameItem0_8
+	.db >GameItem0_12, >GameItem0_12
+
+;; AnimationType = item pickup
+	.db >GameItem0_14, >GameItem0_14
+	.db >GameItem0_14, >GameItem0_14
+	.db >GameItem0_14, >GameItem0_14
+	.db >GameItem0_14, >GameItem0_14
+
+;; AnimationType = inwater
+	.db >GameItem0_15, >GameItem0_15
+	.db >GameItem0_14, >GameItem0_15
+	.db >GameItem0_15, >GameItem0_8
+	.db >GameItem0_8, >GameItem0_8
+
+;; AnimationType = atack
+	.db >GameItem0_17, >GameItem0_16
+	.db >GameItem0_19, >GameItem0_16
+	.db >GameItem0_16, >GameItem0_16
+	.db >GameItem0_18, >GameItem0_16
+
+;; AnimationType = roll
+	.db >GameItem0_8, >GameItem0_8
+	.db >GameItem0_8, >GameItem0_8
+	.db >GameItem0_8, >GameItem0_8
+	.db >GameItem0_8, >GameItem0_8
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 1 GameItem: sword
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = sword
+;; Animations = 4
+GameItem1_Lo:
+;; AnimationType = left
+	.db <GameItem1_2, <GameItem1_2
+	.db <GameItem1_2, <GameItem1_2
+	.db <GameItem1_2, <GameItem1_2
+	.db <GameItem1_2, <GameItem1_2
+
+;; AnimationType = down
+	.db <GameItem1_1, <GameItem1_1
+	.db <GameItem1_1, <GameItem1_1
+	.db <GameItem1_1, <GameItem1_1
+	.db <GameItem1_1, <GameItem1_1
+
+;; AnimationType = up
+	.db <GameItem1_0, <GameItem1_0
+	.db <GameItem1_0, <GameItem1_0
+	.db <GameItem1_0, <GameItem1_0
+	.db <GameItem1_0, <GameItem1_0
+
+;; AnimationType = right
+	.db <GameItem1_3, <GameItem1_3
+	.db <GameItem1_3, <GameItem1_3
+	.db <GameItem1_3, <GameItem1_3
+	.db <GameItem1_3, <GameItem1_3
+
+GameItem1_Hi:
+;; AnimationType = left
+	.db >GameItem1_2, >GameItem1_2
+	.db >GameItem1_2, >GameItem1_2
+	.db >GameItem1_2, >GameItem1_2
+	.db >GameItem1_2, >GameItem1_2
+
+;; AnimationType = down
+	.db >GameItem1_1, >GameItem1_1
+	.db >GameItem1_1, >GameItem1_1
+	.db >GameItem1_1, >GameItem1_1
+	.db >GameItem1_1, >GameItem1_1
+
+;; AnimationType = up
+	.db >GameItem1_0, >GameItem1_0
+	.db >GameItem1_0, >GameItem1_0
+	.db >GameItem1_0, >GameItem1_0
+	.db >GameItem1_0, >GameItem1_0
+
+;; AnimationType = right
+	.db >GameItem1_3, >GameItem1_3
+	.db >GameItem1_3, >GameItem1_3
+	.db >GameItem1_3, >GameItem1_3
+	.db >GameItem1_3, >GameItem1_3
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 2 GameItem: enemie projectile
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = enemie projectile
+;; Animations = 1
+GameItem2_Lo:
+;; AnimationType = Default
+	.db <GameItem2_0, <GameItem2_0
+	.db <GameItem2_0, <GameItem2_0
+	.db <GameItem2_0, <GameItem2_0
+	.db <GameItem2_0, <GameItem2_0
+
+GameItem2_Hi:
+;; AnimationType = Default
+	.db >GameItem2_0, >GameItem2_0
+	.db >GameItem2_0, >GameItem2_0
+	.db >GameItem2_0, >GameItem2_0
+	.db >GameItem2_0, >GameItem2_0
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 3 GameItem: sword wavey
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = sword wavey
+;; Animations = 2
+GameItem3_Lo:
+;; AnimationType = Default
+	.db <GameItem3_0, <GameItem3_0
+	.db <GameItem3_0, <GameItem3_0
+	.db <GameItem3_0, <GameItem3_1
+	.db <GameItem3_0, <GameItem3_0
+
+;; AnimationType = dsf
+	.db <GameItem3_0, <GameItem3_0
+	.db <GameItem3_0, <GameItem3_0
+	.db <GameItem3_0, <GameItem3_0
+	.db <GameItem3_0, <GameItem3_0
+
+GameItem3_Hi:
+;; AnimationType = Default
+	.db >GameItem3_0, >GameItem3_0
+	.db >GameItem3_0, >GameItem3_0
+	.db >GameItem3_0, >GameItem3_1
+	.db >GameItem3_0, >GameItem3_0
+
+;; AnimationType = dsf
+	.db >GameItem3_0, >GameItem3_0
+	.db >GameItem3_0, >GameItem3_0
+	.db >GameItem3_0, >GameItem3_0
+	.db >GameItem3_0, >GameItem3_0
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 4 GameItem: Health orb
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = Health orb
+;; Animations = 1
+GameItem4_Lo:
+;; AnimationType = Default
+	.db <GameItem4_0, <GameItem4_0
+	.db <GameItem4_0, <GameItem4_0
+	.db <GameItem4_0, <GameItem4_0
+	.db <GameItem4_0, <GameItem4_0
+
+GameItem4_Hi:
+;; AnimationType = Default
+	.db >GameItem4_0, >GameItem4_0
+	.db >GameItem4_0, >GameItem4_0
+	.db >GameItem4_0, >GameItem4_0
+	.db >GameItem4_0, >GameItem4_0
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 5 GameItem: explodingprojectile
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = explodingprojectile
+;; Animations = 1
+GameItem5_Lo:
+;; AnimationType = Default
+	.db <GameItem5_0, <GameItem5_0
+	.db <GameItem5_0, <GameItem5_0
+	.db <GameItem5_0, <GameItem5_0
+	.db <GameItem5_0, <GameItem5_0
+
+GameItem5_Hi:
+;; AnimationType = Default
+	.db >GameItem5_0, >GameItem5_0
+	.db >GameItem5_0, >GameItem5_0
+	.db >GameItem5_0, >GameItem5_0
+	.db >GameItem5_0, >GameItem5_0
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 6 GameItem: Key
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = Key
+;; Animations = 1
+GameItem6_Lo:
+;; AnimationType = Default
+	.db <GameItem6_0, <GameItem6_0
+	.db <GameItem6_0, <GameItem6_0
+	.db <GameItem6_0, <GameItem6_0
+	.db <GameItem6_0, <GameItem6_0
+
+GameItem6_Hi:
+;; AnimationType = Default
+	.db >GameItem6_0, >GameItem6_0
+	.db >GameItem6_0, >GameItem6_0
+	.db >GameItem6_0, >GameItem6_0
+	.db >GameItem6_0, >GameItem6_0
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 7 GameItem: Coin
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = Coin
+;; Animations = 1
+GameItem7_Lo:
+;; AnimationType = Default
+	.db <GameItem7_0, <GameItem7_0
+	.db <GameItem7_0, <GameItem7_0
+	.db <GameItem7_0, <GameItem7_0
+	.db <GameItem7_0, <GameItem7_0
+
+GameItem7_Hi:
+;; AnimationType = Default
+	.db >GameItem7_0, >GameItem7_0
+	.db >GameItem7_0, >GameItem7_0
+	.db >GameItem7_0, >GameItem7_0
+	.db >GameItem7_0, >GameItem7_0
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 8 GameItem: implotion
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = implotion
+;; Animations = 1
+GameItem8_Lo:
+;; AnimationType = explotion
+	.db <GameItem8_0, <GameItem8_0
+	.db <GameItem8_0, <GameItem8_0
+	.db <GameItem8_0, <GameItem8_0
+	.db <GameItem8_0, <GameItem8_0
+
+GameItem8_Hi:
+;; AnimationType = explotion
+	.db >GameItem8_0, >GameItem8_0
+	.db >GameItem8_0, >GameItem8_0
+	.db >GameItem8_0, >GameItem8_0
+	.db >GameItem8_0, >GameItem8_0
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 9 GameItem: slimeprojectile
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = slimeprojectile
+;; Animations = 2
+GameItem9_Lo:
+;; AnimationType = Default
+	.db <GameItem9_0, <GameItem9_0
+	.db <GameItem9_0, <GameItem9_0
+	.db <GameItem9_0, <GameItem9_0
+	.db <GameItem9_0, <GameItem9_0
+
+;; AnimationType = dffdffd
+	.db <GameItem9_1, <GameItem9_1
+	.db <GameItem9_1, <GameItem9_1
+	.db <GameItem9_1, <GameItem9_1
+	.db <GameItem9_1, <GameItem9_1
+
+GameItem9_Hi:
+;; AnimationType = Default
+	.db >GameItem9_0, >GameItem9_0
+	.db >GameItem9_0, >GameItem9_0
+	.db >GameItem9_0, >GameItem9_0
+	.db >GameItem9_0, >GameItem9_0
+
+;; AnimationType = dffdffd
+	.db >GameItem9_1, >GameItem9_1
+	.db >GameItem9_1, >GameItem9_1
+	.db >GameItem9_1, >GameItem9_1
+	.db >GameItem9_1, >GameItem9_1
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 10 GameItem: bullshit
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = bullshit
+;; Animations = 1
+GameItem10_Lo:
+;; AnimationType = Default
+	.db <GameItem10_0, <GameItem10_0
+	.db <GameItem10_0, <GameItem10_0
+	.db <GameItem10_0, <GameItem10_0
+	.db <GameItem10_0, <GameItem10_0
+
+GameItem10_Hi:
+;; AnimationType = Default
+	.db >GameItem10_0, >GameItem10_0
+	.db >GameItem10_0, >GameItem10_0
+	.db >GameItem10_0, >GameItem10_0
+	.db >GameItem10_0, >GameItem10_0
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 11 GameItem: bighealth
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = bighealth
+;; Animations = 1
+GameItem11_Lo:
+;; AnimationType = Default
+	.db <GameItem11_0, <GameItem11_0
+	.db <GameItem11_0, <GameItem11_0
+	.db <GameItem11_0, <GameItem11_0
+	.db <GameItem11_0, <GameItem11_0
+
+GameItem11_Hi:
+;; AnimationType = Default
+	.db >GameItem11_0, >GameItem11_0
+	.db >GameItem11_0, >GameItem11_0
+	.db >GameItem11_0, >GameItem11_0
+	.db >GameItem11_0, >GameItem11_0
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 12 GameItem: explotion
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = explotion
+;; Animations = 1
+GameItem12_Lo:
+;; AnimationType = Default
+	.db <GameItem12_0, <GameItem12_0
+	.db <GameItem12_0, <GameItem12_0
+	.db <GameItem12_0, <GameItem12_0
+	.db <GameItem12_0, <GameItem12_0
+
+GameItem12_Hi:
+;; AnimationType = Default
+	.db >GameItem12_0, >GameItem12_0
+	.db >GameItem12_0, >GameItem12_0
+	.db >GameItem12_0, >GameItem12_0
+	.db >GameItem12_0, >GameItem12_0
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 13 GameItem: Effect 5
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = Effect 5
+;; Animations = 1
+GameItem13_Lo:
+;; AnimationType = Default
+	.db <GameItem13_0, <GameItem13_0
+	.db <GameItem13_0, <GameItem13_0
+	.db <GameItem13_0, <GameItem13_0
+	.db <GameItem13_0, <GameItem13_0
+
+GameItem13_Hi:
+;; AnimationType = Default
+	.db >GameItem13_0, >GameItem13_0
+	.db >GameItem13_0, >GameItem13_0
+	.db >GameItem13_0, >GameItem13_0
+	.db >GameItem13_0, >GameItem13_0
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 14 GameItem: Effect 6
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = Effect 6
+;; Animations = 1
+GameItem14_Lo:
+;; AnimationType = Default
+	.db <GameItem14_0, <GameItem14_0
+	.db <GameItem14_0, <GameItem14_0
+	.db <GameItem14_0, <GameItem14_0
+	.db <GameItem14_0, <GameItem14_0
+
+GameItem14_Hi:
+;; AnimationType = Default
+	.db >GameItem14_0, >GameItem14_0
+	.db >GameItem14_0, >GameItem14_0
+	.db >GameItem14_0, >GameItem14_0
+	.db >GameItem14_0, >GameItem14_0
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 15 GameItem: Effect 7
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = Effect 7
+;; Animations = 1
+GameItem15_Lo:
+;; AnimationType = Default
+	.db <GameItem15_0, <GameItem15_0
+	.db <GameItem15_0, <GameItem15_0
+	.db <GameItem15_0, <GameItem15_0
+	.db <GameItem15_0, <GameItem15_0
+
+GameItem15_Hi:
+;; AnimationType = Default
+	.db >GameItem15_0, >GameItem15_0
+	.db >GameItem15_0, >GameItem15_0
+	.db >GameItem15_0, >GameItem15_0
+	.db >GameItem15_0, >GameItem15_0
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 0 Monster npctest
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = npctest
+;; Animations = 1
+Object0_Lo:
+;; AnimationType = Default
+	.db <Object0_0, <Object0_0
+	.db <Object0_0, <Object0_0
+	.db <Object0_0, <Object0_0
+	.db <Object0_0, <Object0_0
+
+Object0_Hi:
+;; AnimationType = Default
+	.db >Object0_0, >Object0_0
+	.db >Object0_0, >Object0_0
+	.db >Object0_0, >Object0_0
+	.db >Object0_0, >Object0_0
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 1 Monster hangingbat
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = hangingbat
+;; Animations = 3
+Object1_Lo:
+;; AnimationType = hanging
+	.db <Object1_2, <Object1_2
+	.db <Object1_2, <Object1_2
+	.db <Object1_2, <Object1_2
+	.db <Object1_2, <Object1_2
+
+;; AnimationType = flying
+	.db <Object1_3, <Object1_5
+	.db <Object1_5, <Object1_3
+	.db <Object1_0, <Object1_0
+	.db <Object1_4, <Object1_3
+
+;; AnimationType = inbetween
+	.db <Object1_1, <Object1_1
+	.db <Object1_1, <Object1_1
+	.db <Object1_1, <Object1_1
+	.db <Object1_1, <Object1_1
+
+Object1_Hi:
+;; AnimationType = hanging
+	.db >Object1_2, >Object1_2
+	.db >Object1_2, >Object1_2
+	.db >Object1_2, >Object1_2
+	.db >Object1_2, >Object1_2
+
+;; AnimationType = flying
+	.db >Object1_3, >Object1_5
+	.db >Object1_5, >Object1_3
+	.db >Object1_0, >Object1_0
+	.db >Object1_4, >Object1_3
+
+;; AnimationType = inbetween
+	.db >Object1_1, >Object1_1
+	.db >Object1_1, >Object1_1
+	.db >Object1_1, >Object1_1
+	.db >Object1_1, >Object1_1
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 2 Monster classic dalek
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = classic dalek
+;; Animations = 2
+Object2_Lo:
+;; AnimationType = Default
+	.db <Object2_2, <Object2_0
+	.db <Object2_4, <Object2_0
+	.db <Object2_1, <Object2_0
+	.db <Object2_3, <Object2_0
+
+;; AnimationType = hurt
+	.db <Object2_0, <Object2_0
+	.db <Object2_0, <Object2_0
+	.db <Object2_0, <Object2_0
+	.db <Object2_0, <Object2_0
+
+Object2_Hi:
+;; AnimationType = Default
+	.db >Object2_2, >Object2_0
+	.db >Object2_4, >Object2_0
+	.db >Object2_1, >Object2_0
+	.db >Object2_3, >Object2_0
+
+;; AnimationType = hurt
+	.db >Object2_0, >Object2_0
+	.db >Object2_0, >Object2_0
+	.db >Object2_0, >Object2_0
+	.db >Object2_0, >Object2_0
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 3 Monster sand hopper
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = sand hopper
+;; Animations = 4
+Object3_Lo:
+;; AnimationType = normal
+	.db <Object3_2, <Object3_3
+	.db <Object3_3, <Object3_3
+	.db <Object3_1, <Object3_1
+	.db <Object3_0, <Object3_1
+
+;; AnimationType = hurt
+	.db <Object3_5, <Object3_0
+	.db <Object3_7, <Object3_0
+	.db <Object3_4, <Object3_0
+	.db <Object3_6, <Object3_0
+
+;; AnimationType = spike
+	.db <Object3_0, <Object3_0
+	.db <Object3_0, <Object3_0
+	.db <Object3_0, <Object3_0
+	.db <Object3_0, <Object3_0
+
+;; AnimationType = jump
+	.db <Object3_0, <Object3_0
+	.db <Object3_0, <Object3_0
+	.db <Object3_0, <Object3_0
+	.db <Object3_0, <Object3_0
+
+Object3_Hi:
+;; AnimationType = normal
+	.db >Object3_2, >Object3_3
+	.db >Object3_3, >Object3_3
+	.db >Object3_1, >Object3_1
+	.db >Object3_0, >Object3_1
+
+;; AnimationType = hurt
+	.db >Object3_5, >Object3_0
+	.db >Object3_7, >Object3_0
+	.db >Object3_4, >Object3_0
+	.db >Object3_6, >Object3_0
+
+;; AnimationType = spike
+	.db >Object3_0, >Object3_0
+	.db >Object3_0, >Object3_0
+	.db >Object3_0, >Object3_0
+	.db >Object3_0, >Object3_0
+
+;; AnimationType = jump
+	.db >Object3_0, >Object3_0
+	.db >Object3_0, >Object3_0
+	.db >Object3_0, >Object3_0
+	.db >Object3_0, >Object3_0
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 4 Monster stone dalek
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = stone dalek
+;; Animations = 1
+Object4_Lo:
+;; AnimationType = Default
+	.db <Object4_2, <Object4_0
+	.db <Object4_4, <Object4_0
+	.db <Object4_1, <Object4_0
+	.db <Object4_3, <Object4_0
+
+Object4_Hi:
+;; AnimationType = Default
+	.db >Object4_2, >Object4_0
+	.db >Object4_4, >Object4_0
+	.db >Object4_1, >Object4_0
+	.db >Object4_3, >Object4_0
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 5 Monster dalekish
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = dalekish
+;; Animations = 2
+Object5_Lo:
+;; AnimationType = Default
+	.db <Object5_2, <Object5_0
+	.db <Object5_4, <Object5_0
+	.db <Object5_1, <Object5_0
+	.db <Object5_3, <Object5_0
+
+;; AnimationType = hurt
+	.db <Object5_0, <Object5_0
+	.db <Object5_0, <Object5_0
+	.db <Object5_0, <Object5_0
+	.db <Object5_0, <Object5_0
+
+Object5_Hi:
+;; AnimationType = Default
+	.db >Object5_2, >Object5_0
+	.db >Object5_4, >Object5_0
+	.db >Object5_1, >Object5_0
+	.db >Object5_3, >Object5_0
+
+;; AnimationType = hurt
+	.db >Object5_0, >Object5_0
+	.db >Object5_0, >Object5_0
+	.db >Object5_0, >Object5_0
+	.db >Object5_0, >Object5_0
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 6 Monster get sword npc
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = get sword npc
+;; Animations = 1
+Object6_Lo:
+;; AnimationType = Default
+	.db <Object6_0, <Object6_0
+	.db <Object6_0, <Object6_0
+	.db <Object6_0, <Object6_0
+	.db <Object6_0, <Object6_0
+
+Object6_Hi:
+;; AnimationType = Default
+	.db >Object6_0, >Object6_0
+	.db >Object6_0, >Object6_0
+	.db >Object6_0, >Object6_0
+	.db >Object6_0, >Object6_0
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 7 Monster blue ghoul
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = blue ghoul
+;; Animations = 2
+Object7_Lo:
+;; AnimationType = walking
+	.db <Object7_0, <Object7_0
+	.db <Object7_2, <Object7_2
+	.db <Object7_3, <Object7_3
+	.db <Object7_1, <Object7_1
+
+;; AnimationType = hurt
+	.db <Object7_4, <Object7_4
+	.db <Object7_2, <Object7_2
+	.db <Object7_3, <Object7_3
+	.db <Object7_5, <Object7_5
+
+Object7_Hi:
+;; AnimationType = walking
+	.db >Object7_0, >Object7_0
+	.db >Object7_2, >Object7_2
+	.db >Object7_3, >Object7_3
+	.db >Object7_1, >Object7_1
+
+;; AnimationType = hurt
+	.db >Object7_4, >Object7_4
+	.db >Object7_2, >Object7_2
+	.db >Object7_3, >Object7_3
+	.db >Object7_5, >Object7_5
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 8 Monster hades
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = hades
+;; Animations = 1
+Object8_Lo:
+;; AnimationType = Default
+	.db <Object8_0, <Object8_0
+	.db <Object8_0, <Object8_0
+	.db <Object8_0, <Object8_0
+	.db <Object8_0, <Object8_0
+
+Object8_Hi:
+;; AnimationType = Default
+	.db >Object8_0, >Object8_0
+	.db >Object8_0, >Object8_0
+	.db >Object8_0, >Object8_0
+	.db >Object8_0, >Object8_0
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 9 Monster white ghost
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = white ghost
+;; Animations = 2
+Object9_Lo:
+;; AnimationType = walking
+	.db <Object9_0, <Object9_0
+	.db <Object9_2, <Object9_6
+	.db <Object9_3, <Object9_3
+	.db <Object9_1, <Object9_1
+
+;; AnimationType = hurt
+	.db <Object9_4, <Object9_4
+	.db <Object9_6, <Object9_6
+	.db <Object9_7, <Object9_7
+	.db <Object9_5, <Object9_5
+
+Object9_Hi:
+;; AnimationType = walking
+	.db >Object9_0, >Object9_0
+	.db >Object9_2, >Object9_6
+	.db >Object9_3, >Object9_3
+	.db >Object9_1, >Object9_1
+
+;; AnimationType = hurt
+	.db >Object9_4, >Object9_4
+	.db >Object9_6, >Object9_6
+	.db >Object9_7, >Object9_7
+	.db >Object9_5, >Object9_5
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 10 Monster ashla
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = ashla
+;; Animations = 1
+Object10_Lo:
+;; AnimationType = Default
+	.db <Object10_0, <Object10_0
+	.db <Object10_0, <Object10_0
+	.db <Object10_0, <Object10_0
+	.db <Object10_0, <Object10_0
+
+Object10_Hi:
+;; AnimationType = Default
+	.db >Object10_0, >Object10_0
+	.db >Object10_0, >Object10_0
+	.db >Object10_0, >Object10_0
+	.db >Object10_0, >Object10_0
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 11 Monster hard hopper
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = hard hopper
+;; Animations = 3
+Object11_Lo:
+;; AnimationType = moving
+	.db <Object11_2, <Object11_2
+	.db <Object11_3, <Object11_3
+	.db <Object11_1, <Object11_1
+	.db <Object11_0, <Object11_0
+
+;; AnimationType = stinging
+	.db <Object11_0, <Object11_0
+	.db <Object11_0, <Object11_0
+	.db <Object11_0, <Object11_0
+	.db <Object11_0, <Object11_0
+
+;; AnimationType = hurt
+	.db <Object11_2, <Object11_2
+	.db <Object11_3, <Object11_3
+	.db <Object11_1, <Object11_1
+	.db <Object11_0, <Object11_0
+
+Object11_Hi:
+;; AnimationType = moving
+	.db >Object11_2, >Object11_2
+	.db >Object11_3, >Object11_3
+	.db >Object11_1, >Object11_1
+	.db >Object11_0, >Object11_0
+
+;; AnimationType = stinging
+	.db >Object11_0, >Object11_0
+	.db >Object11_0, >Object11_0
+	.db >Object11_0, >Object11_0
+	.db >Object11_0, >Object11_0
+
+;; AnimationType = hurt
+	.db >Object11_2, >Object11_2
+	.db >Object11_3, >Object11_3
+	.db >Object11_1, >Object11_1
+	.db >Object11_0, >Object11_0
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 12 Monster charging bu
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = charging bu
+;; Animations = 4
+Object12_Lo:
+;; AnimationType = normal
+	.db <Object12_0, <Object12_0
+	.db <Object12_1, <Object12_0
+	.db <Object12_2, <Object12_0
+	.db <Object12_0, <Object12_0
+
+;; AnimationType = charging
+	.db <Object12_7, <Object12_7
+	.db <Object12_5, <Object12_5
+	.db <Object12_6, <Object12_0
+	.db <Object12_4, <Object12_0
+
+;; AnimationType = hurt
+	.db <Object12_11, <Object12_0
+	.db <Object12_9, <Object12_0
+	.db <Object12_10, <Object12_0
+	.db <Object12_8, <Object12_0
+
+;; AnimationType = sprinting
+	.db <Object12_15, <Object12_15
+	.db <Object12_13, <Object12_13
+	.db <Object12_14, <Object12_14
+	.db <Object12_12, <Object12_12
+
+Object12_Hi:
+;; AnimationType = normal
+	.db >Object12_0, >Object12_0
+	.db >Object12_1, >Object12_0
+	.db >Object12_2, >Object12_0
+	.db >Object12_0, >Object12_0
+
+;; AnimationType = charging
+	.db >Object12_7, >Object12_7
+	.db >Object12_5, >Object12_5
+	.db >Object12_6, >Object12_0
+	.db >Object12_4, >Object12_0
+
+;; AnimationType = hurt
+	.db >Object12_11, >Object12_0
+	.db >Object12_9, >Object12_0
+	.db >Object12_10, >Object12_0
+	.db >Object12_8, >Object12_0
+
+;; AnimationType = sprinting
+	.db >Object12_15, >Object12_15
+	.db >Object12_13, >Object12_13
+	.db >Object12_14, >Object12_14
+	.db >Object12_12, >Object12_12
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 13 Monster clikkie
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = clikkie
+;; Animations = 3
+Object13_Lo:
+;; AnimationType = double
+	.db <Object13_0, <Object13_0
+	.db <Object13_3, <Object13_0
+	.db <Object13_1, <Object13_0
+	.db <Object13_2, <Object13_0
+
+;; AnimationType = single
+	.db <Object13_4, <Object13_0
+	.db <Object13_7, <Object13_0
+	.db <Object13_5, <Object13_0
+	.db <Object13_6, <Object13_0
+
+;; AnimationType = hurt
+	.db <Object13_9, <Object13_0
+	.db <Object13_11, <Object13_0
+	.db <Object13_8, <Object13_0
+	.db <Object13_10, <Object13_0
+
+Object13_Hi:
+;; AnimationType = double
+	.db >Object13_0, >Object13_0
+	.db >Object13_3, >Object13_0
+	.db >Object13_1, >Object13_0
+	.db >Object13_2, >Object13_0
+
+;; AnimationType = single
+	.db >Object13_4, >Object13_0
+	.db >Object13_7, >Object13_0
+	.db >Object13_5, >Object13_0
+	.db >Object13_6, >Object13_0
+
+;; AnimationType = hurt
+	.db >Object13_9, >Object13_0
+	.db >Object13_11, >Object13_0
+	.db >Object13_8, >Object13_0
+	.db >Object13_10, >Object13_0
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 14 Monster bigggggggg slime
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = bigggggggg slime
+;; Animations = 3
+Object14_Lo:
+;; AnimationType = shooot
+	.db <Object14_10, <Object14_0
+	.db <Object14_11, <Object14_0
+	.db <Object14_8, <Object14_0
+	.db <Object14_9, <Object14_0
+
+;; AnimationType = rolling
+	.db <Object14_0, <Object14_7
+	.db <Object14_3, <Object14_5
+	.db <Object14_1, <Object14_4
+	.db <Object14_2, <Object14_6
+
+;; AnimationType = hurtslime
+	.db <Object14_15, <Object14_19
+	.db <Object14_13, <Object14_17
+	.db <Object14_14, <Object14_17
+	.db <Object14_12, <Object14_18
+
+Object14_Hi:
+;; AnimationType = shooot
+	.db >Object14_10, >Object14_0
+	.db >Object14_11, >Object14_0
+	.db >Object14_8, >Object14_0
+	.db >Object14_9, >Object14_0
+
+;; AnimationType = rolling
+	.db >Object14_0, >Object14_7
+	.db >Object14_3, >Object14_5
+	.db >Object14_1, >Object14_4
+	.db >Object14_2, >Object14_6
+
+;; AnimationType = hurtslime
+	.db >Object14_15, >Object14_19
+	.db >Object14_13, >Object14_17
+	.db >Object14_14, >Object14_17
+	.db >Object14_12, >Object14_18
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 15 Monster triple slime
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = triple slime
+;; Animations = 1
+Object15_Lo:
+;; AnimationType = Default
+	.db <Object15_0, <Object15_0
+	.db <Object15_0, <Object15_0
+	.db <Object15_0, <Object15_0
+	.db <Object15_0, <Object15_0
+
+Object15_Hi:
+;; AnimationType = Default
+	.db >Object15_0, >Object15_0
+	.db >Object15_0, >Object15_0
+	.db >Object15_0, >Object15_0
+	.db >Object15_0, >Object15_0
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 16 Monster mouse
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = mouse
+;; Animations = 1
+Object16_Lo:
+;; AnimationType = Default
+	.db <Object16_0, <Object16_0
+	.db <Object16_0, <Object16_0
+	.db <Object16_0, <Object16_0
+	.db <Object16_0, <Object16_0
+
+Object16_Hi:
+;; AnimationType = Default
+	.db >Object16_0, >Object16_0
+	.db >Object16_0, >Object16_0
+	.db >Object16_0, >Object16_0
+	.db >Object16_0, >Object16_0
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 17 Monster bleu rat
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = bleu rat
+;; Animations = 1
+Object17_Lo:
+;; AnimationType = Default
+	.db <Object17_0, <Object17_0
+	.db <Object17_0, <Object17_0
+	.db <Object17_0, <Object17_0
+	.db <Object17_0, <Object17_0
+
+Object17_Hi:
+;; AnimationType = Default
+	.db >Object17_0, >Object17_0
+	.db >Object17_0, >Object17_0
+	.db >Object17_0, >Object17_0
+	.db >Object17_0, >Object17_0
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 18 Monster big sign
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = big sign
+;; Animations = 1
+Object18_Lo:
+;; AnimationType = Default
+	.db <Object18_0, <Object18_0
+	.db <Object18_0, <Object18_0
+	.db <Object18_0, <Object18_0
+	.db <Object18_0, <Object18_0
+
+Object18_Hi:
+;; AnimationType = Default
+	.db >Object18_0, >Object18_0
+	.db >Object18_0, >Object18_0
+	.db >Object18_0, >Object18_0
+	.db >Object18_0, >Object18_0
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 19 Monster stone sign
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = stone sign
+;; Animations = 1
+Object19_Lo:
+;; AnimationType = Default
+	.db <Object19_0, <Object19_0
+	.db <Object19_0, <Object19_0
+	.db <Object19_0, <Object19_0
+	.db <Object19_0, <Object19_0
+
+Object19_Hi:
+;; AnimationType = Default
+	.db >Object19_0, >Object19_0
+	.db >Object19_0, >Object19_0
+	.db >Object19_0, >Object19_0
+	.db >Object19_0, >Object19_0
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 20 Monster moobloom
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = moobloom
+;; Animations = 1
+Object20_Lo:
+;; AnimationType = walking
+	.db <Object20_3, <Object20_0
+	.db <Object20_1, <Object20_0
+	.db <Object20_2, <Object20_0
+	.db <Object20_0, <Object20_0
+
+Object20_Hi:
+;; AnimationType = walking
+	.db >Object20_3, >Object20_0
+	.db >Object20_1, >Object20_0
+	.db >Object20_2, >Object20_0
+	.db >Object20_0, >Object20_0
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 21 Monster toad
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = toad
+;; Animations = 1
+Object21_Lo:
+;; AnimationType = Default
+	.db <Object21_0, <Object21_0
+	.db <Object21_0, <Object21_0
+	.db <Object21_0, <Object21_0
+	.db <Object21_0, <Object21_0
+
+Object21_Hi:
+;; AnimationType = Default
+	.db >Object21_0, >Object21_0
+	.db >Object21_0, >Object21_0
+	.db >Object21_0, >Object21_0
+	.db >Object21_0, >Object21_0
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 22 Monster single slime
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = single slime
+;; Animations = 3
+Object22_Lo:
+;; AnimationType = double
+	.db <Object22_0, <Object22_0
+	.db <Object22_3, <Object22_0
+	.db <Object22_1, <Object22_0
+	.db <Object22_2, <Object22_0
+
+;; AnimationType = single
+	.db <Object22_4, <Object22_0
+	.db <Object22_7, <Object22_0
+	.db <Object22_5, <Object22_0
+	.db <Object22_6, <Object22_0
+
+;; AnimationType = hurt
+	.db <Object22_9, <Object22_0
+	.db <Object22_7, <Object22_0
+	.db <Object22_8, <Object22_0
+	.db <Object22_10, <Object22_0
+
+Object22_Hi:
+;; AnimationType = double
+	.db >Object22_0, >Object22_0
+	.db >Object22_3, >Object22_0
+	.db >Object22_1, >Object22_0
+	.db >Object22_2, >Object22_0
+
+;; AnimationType = single
+	.db >Object22_4, >Object22_0
+	.db >Object22_7, >Object22_0
+	.db >Object22_5, >Object22_0
+	.db >Object22_6, >Object22_0
+
+;; AnimationType = hurt
+	.db >Object22_9, >Object22_0
+	.db >Object22_7, >Object22_0
+	.db >Object22_8, >Object22_0
+	.db >Object22_10, >Object22_0
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 23 Monster getprojectilenjpc
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = getprojectilenjpc
+;; Animations = 1
+Object23_Lo:
+;; AnimationType = Default
+	.db <Object23_0, <Object23_0
+	.db <Object23_0, <Object23_0
+	.db <Object23_0, <Object23_0
+	.db <Object23_0, <Object23_0
+
+Object23_Hi:
+;; AnimationType = Default
+	.db >Object23_0, >Object23_0
+	.db >Object23_0, >Object23_0
+	.db >Object23_0, >Object23_0
+	.db >Object23_0, >Object23_0
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 24 Monster start
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = start
+;; Animations = 1
+Object24_Lo:
+;; AnimationType = Default
+	.db <Object24_0, <Object24_0
+	.db <Object24_0, <Object24_0
+	.db <Object24_0, <Object24_0
+	.db <Object24_0, <Object24_0
+
+Object24_Hi:
+;; AnimationType = Default
+	.db >Object24_0, >Object24_0
+	.db >Object24_0, >Object24_0
+	.db >Object24_0, >Object24_0
+	.db >Object24_0, >Object24_0
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 25 Monster press
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = press
+;; Animations = 1
+Object25_Lo:
+;; AnimationType = Default
+	.db <Object25_0, <Object25_0
+	.db <Object25_0, <Object25_0
+	.db <Object25_0, <Object25_0
+	.db <Object25_0, <Object25_0
+
+Object25_Hi:
+;; AnimationType = Default
+	.db >Object25_0, >Object25_0
+	.db >Object25_0, >Object25_0
+	.db >Object25_0, >Object25_0
+	.db >Object25_0, >Object25_0
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 26 Monster dragonboss
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = dragonboss
+;; Animations = 2
+Object26_Lo:
+;; AnimationType = Default
+	.db <Object26_0, <Object26_0
+	.db <Object26_0, <Object26_0
+	.db <Object26_0, <Object26_0
+	.db <Object26_0, <Object26_0
+
+;; AnimationType = hurt
+	.db <Object26_1, <Object26_1
+	.db <Object26_1, <Object26_1
+	.db <Object26_1, <Object26_1
+	.db <Object26_1, <Object26_1
+
+Object26_Hi:
+;; AnimationType = Default
+	.db >Object26_0, >Object26_0
+	.db >Object26_0, >Object26_0
+	.db >Object26_0, >Object26_0
+	.db >Object26_0, >Object26_0
+
+;; AnimationType = hurt
+	.db >Object26_1, >Object26_1
+	.db >Object26_1, >Object26_1
+	.db >Object26_1, >Object26_1
+	.db >Object26_1, >Object26_1
+
+
+;;;;;;;;; Null Monster ;;;;;;;;
+Object27_Lo:
+Object27_Hi:
+;;;;;;;;; Null Monster ;;;;;;;;
+Object28_Lo:
+Object28_Hi:
+;;;;;;;;; Null Monster ;;;;;;;;
+Object29_Lo:
+Object29_Hi:
+;;;;;;;;; Null Monster ;;;;;;;;
+Object30_Lo:
+Object30_Hi:
+;;;;;;;;; Null Monster ;;;;;;;;
+Object31_Lo:
+Object31_Hi:
+;;;;;;;;; Null Monster ;;;;;;;;
+Object32_Lo:
+Object32_Hi:
+;;;;;;;;; Null Monster ;;;;;;;;
+Object33_Lo:
+Object33_Hi:
+;;;;;;;;; Null Monster ;;;;;;;;
+Object34_Lo:
+Object34_Hi:
+;;;;;;;;; Null Monster ;;;;;;;;
+Object35_Lo:
+Object35_Hi:
+;;;;;;;;; Null Monster ;;;;;;;;
+Object36_Lo:
+Object36_Hi:
+;;;;;;;;; Null Monster ;;;;;;;;
+Object37_Lo:
+Object37_Hi:
+;;;;;;;;; Null Monster ;;;;;;;;
+Object38_Lo:
+Object38_Hi:
+;;;;;;;;; Null Monster ;;;;;;;;
+Object39_Lo:
+Object39_Hi:
+;;;;;;;;; Null Monster ;;;;;;;;
+Object40_Lo:
+Object40_Hi:
+;;;;;;;;; Null Monster ;;;;;;;;
+Object41_Lo:
+Object41_Hi:
+;;;;;;;;; Null Monster ;;;;;;;;
+Object42_Lo:
+Object42_Hi:
+;;;;;;;;; Null Monster ;;;;;;;;
+Object43_Lo:
+Object43_Hi:
+;;;;;;;;; Null Monster ;;;;;;;;
+Object44_Lo:
+Object44_Hi:
+;;;;;;;;; Null Monster ;;;;;;;;
+Object45_Lo:
+Object45_Hi:
+;;;;;;;;; Null Monster ;;;;;;;;
+Object46_Lo:
+Object46_Hi:
+;;;;;;;;; Null Monster ;;;;;;;;
+Object47_Lo:
+Object47_Hi:
+;;;;;;;;; Null Monster ;;;;;;;;
+Object48_Lo:
+Object48_Hi:
+;;;;;;;;; Null Monster ;;;;;;;;
+Object49_Lo:
+Object49_Hi:
+;;;;;;;;; Null Monster ;;;;;;;;
+Object50_Lo:
+Object50_Hi:
+;;;;;;;;; Null Monster ;;;;;;;;
+Object51_Lo:
+Object51_Hi:
+;;;;;;;;; Null Monster ;;;;;;;;
+Object52_Lo:
+Object52_Hi:
+;;;;;;;;; Null Monster ;;;;;;;;
+Object53_Lo:
+Object53_Hi:
+;;;;;;;;; Null Monster ;;;;;;;;
+Object54_Lo:
+Object54_Hi:
+;;;;;;;;; Null Monster ;;;;;;;;
+Object55_Lo:
+Object55_Hi:
+;;;;;;;;; Null Monster ;;;;;;;;
+Object56_Lo:
+Object56_Hi:
+;;;;;;;;; Null Monster ;;;;;;;;
+Object57_Lo:
+Object57_Hi:
+;;;;;;;;; Null Monster ;;;;;;;;
+Object58_Lo:
+Object58_Hi:
+;;;;;;;;; Null Monster ;;;;;;;;
+Object59_Lo:
+Object59_Hi:
+;;;;;;;;; Null Monster ;;;;;;;;
+Object60_Lo:
+Object60_Hi:
+;;;;;;;;; Null Monster ;;;;;;;;
+Object61_Lo:
+Object61_Hi:
+;;;;;;;;; Null Monster ;;;;;;;;
+Object62_Lo:
+Object62_Hi:
+;;;;;;;;; Null Monster ;;;;;;;;
+Object63_Lo:
+Object63_Hi:

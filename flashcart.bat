@@ -1,2 +1,0 @@
-cd ..
-CALL copyAndFlashCart.bat
