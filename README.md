@@ -39,7 +39,7 @@ This code requires the following:
 
 - [NESmaker](https://www.thenew8bitheroes.com/).
 
-## Installation 
+## ![image](https://github.com/moobloomZagoon/Dungeon-Quest/assets/156084521/06ed163b-b793-4033-b8de-fdce7c24ff03)  Installation 
 
 Install as you would normally install NESmaker according to the instalation instructions.
 
