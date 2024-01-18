@@ -22,7 +22,7 @@ As i have used example code and assets as basis for some parts i am giving it ba
 </tr>
 </table>
 
-## Table of contents 
+## Table of contents ![image](https://github.com/moobloomZagoon/Dungeon-Quest/assets/156084521/b181f1af-7d1a-4bf6-8151-ee10090e3eb8)
 
 - Requirements
 - Recommended modules
