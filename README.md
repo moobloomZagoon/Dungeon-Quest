@@ -33,18 +33,18 @@ As i have used example code and assets as basis for some parts i am giving it ba
 - Maintainers
 
 
-## ![image](https://github.com/moobloomZagoon/Dungeon-Quest/assets/156084521/26f865f9-ddd3-45b7-8dbc-12860df59316)  Requirements
+## <img src="https://github.com/moobloomZagoon/Dungeon-Quest/assets/156084521/26f865f9-ddd3-45b7-8dbc-12860df59316" valign="top" height="50" width="30" > Requirements
 
 This code requires the following:
 
 - [NESmaker](https://www.thenew8bitheroes.com/).
 
-## ![image](https://github.com/moobloomZagoon/Dungeon-Quest/assets/156084521/06ed163b-b793-4033-b8de-fdce7c24ff03)  Installation 
+##  <img src="https://github.com/moobloomZagoon/Dungeon-Quest/assets/156084521/06ed163b-b793-4033-b8de-fdce7c24ff03" valign="top" height="50" width="30" >  Installation 
 
 Install as you would normally install NESmaker according to the instalation instructions.
 
 
-## ![image](https://github.com/moobloomZagoon/Dungeon-Quest/assets/156084521/576f80f7-11e6-4de7-ae72-d4a64e3acf14)  Configuration
+##  <img src="https://github.com/moobloomZagoon/Dungeon-Quest/assets/156084521/576f80f7-11e6-4de7-ae72-d4a64e3acf14" valign="top" height="50" width="30" >  Configuration
 
 1. Locate the instalation folder where you've installed NESmaker.
 2. Delete the folders GameEngineData and GraphicAssets.
