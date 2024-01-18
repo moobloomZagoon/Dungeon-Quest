@@ -3,7 +3,7 @@
   <tr>
     <td>
 <img src="https://github.com/moobloomZagoon/Dungeon-Quest/blob/main/misc/blackbox.png"  >
-    </td><td vertical-align:top>
+    </td><td style="vertical-align:top">
 
 This project holds the code and assets i creates for a NES game i made.
 
