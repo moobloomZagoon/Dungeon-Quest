@@ -56,7 +56,7 @@ Install as you would normally install NESmaker according to the instalation inst
 8. You're done, happy gaming and coding
 
 
-## Troubleshooting (optional)
+##  <img src="https://github.com/moobloomZagoon/Dungeon-Quest/assets/156084521/078f968f-f0fd-4abd-9a51-13b30f1572bf" valign="top" height="50" width="30" > Troubleshooting
 You are on your own!
 Happy coding
 
