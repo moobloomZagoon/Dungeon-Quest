@@ -2,7 +2,7 @@
 <table cellspacing="0" cellpadding="0">
   <tr>
     <td>
-<img src="https://github.com/moobloomZagoon/Dungeon-Quest/blob/main/misc/blackbox.png"  >
+<a href="https://github.com/moobloomZagoon/Dungeon-Quest/blob/main/PWS%20Dungoen%20Quest%20trailer.mkv"><img src="https://github.com/moobloomZagoon/Dungeon-Quest/blob/main/misc/blackbox.png"  ></a>a>
     </td><td valign="top">
 
 This project holds the code and assets i creates for a NES game i made.
