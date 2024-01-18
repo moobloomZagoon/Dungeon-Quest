@@ -2,7 +2,7 @@
 <table cellspacing="0" cellpadding="0">
   <tr>
     <td>
-<img src="https://github.com/moobloomZagoon/Dungeon-Quest/blob/main/misc/blackbox.png" height="40%" width="40%" >
+<img src="https://github.com/moobloomZagoon/Dungeon-Quest/blob/main/misc/blackbox.png"  >
     </td><td>
 
 This project holds the code and assets i creates for a NES game i made.
