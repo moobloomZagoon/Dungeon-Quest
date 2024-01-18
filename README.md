@@ -1,5 +1,5 @@
 <h1># Dungeon Quest</h1>
-<table border="none">
+<table cellspacing="0" cellpadding="0">
   <tr>
     <td>
 <img src="https://github.com/moobloomZagoon/Dungeon-Quest/blob/main/misc/blackbox.png" height="40%" width="40%" >
