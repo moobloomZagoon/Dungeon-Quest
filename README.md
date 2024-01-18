@@ -1,3 +1,4 @@
+<p>
 <img src="https://github.com/moobloomZagoon/Dungeon-Quest/blob/main/misc/blackbox.png" align="left" height="40%" width="40%" >
 
 # Dungeon Quest
@@ -15,10 +16,7 @@ The music was created with a tool named Famitracker.
 [web page](https://famitracker.org/).
 
 As i have used example code and assets as basis for some parts i am giving it back to the community. You cab create your own fork of the project and start using it as a basis for a game of your own.
-
-
-
-
+</P>
 
 ## Table of contents 
 
