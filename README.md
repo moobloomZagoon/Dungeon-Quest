@@ -33,7 +33,7 @@ As i have used example code and assets as basis for some parts i am giving it ba
 - Maintainers
 
 
-## Requirements (required)
+## ![image](https://github.com/moobloomZagoon/Dungeon-Quest/assets/156084521/26f865f9-ddd3-45b7-8dbc-12860df59316) Requirements
 
 This code requires the following:
 
