@@ -1,9 +1,9 @@
 <h1># Dungeon Quest</h1>
 <table cellspacing="0" cellpadding="0">
-  <tr align=top>
+  <tr>
     <td>
 <img src="https://github.com/moobloomZagoon/Dungeon-Quest/blob/main/misc/blackbox.png"  >
-    </td><td>
+    </td><td vertical-align:top>
 
 This project holds the code and assets i creates for a NES game i made.
 
