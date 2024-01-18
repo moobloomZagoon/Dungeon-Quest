@@ -1,3 +1,5 @@
+<img src="https://github.com/moobloomZagoon/Dungeon-Quest/blob/main/misc/blackbox.png" align="left" height="40%" width="40%" >
+
 # Dungeon Quest
 
 This project holds the code and assets i creates for a NES game i made.
@@ -62,7 +64,6 @@ Will ad links to tutorials that helped me later on.
 ## Maintainers (optional)
 Just me
 - moobloomZagoon -
-<img src="https://github.com/moobloomZagoon/Dungeon-Quest/blob/main/misc/blackbox.png" align="left" height="50%" width="50%" >
 
 
 
