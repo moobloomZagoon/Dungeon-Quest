@@ -18,6 +18,7 @@ The music was created with a tool with the name Famitracker.
 [web page](https://famitracker.org/).
 
 Besides the main project folders i've also created folders like sound and artwork in wich you can find those assets in directly usable format like .wav.
+The directory binary holds the latest playable ROM file which you can flash on your own cardridge like [here](https://www.infiniteneslives.com/nesmaker.php) or play it on your favourate emulator or NES Mini 
 
 if you want to see a short trailer of the game, you can find it [here](https://github.com/moobloomZagoon/Dungeon-Quest/blob/main/PWS%20Dungoen%20Quest%20trailer.mkv) it's a small .mkv video
 As i have used some example code and assets as basis for some parts i am giving it back to the community. You can create your own fork of the project and start using it as a basis for a game of your own.
