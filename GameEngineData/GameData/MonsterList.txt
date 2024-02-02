@@ -1,5 +1,5 @@
 ;; *************** MonsterList.txt ***************
-;; Monster list export. Monday, 15 January 2024 15:42:03
+;; Monster list export. Saturday, 27 January 2024 01:38:15
 
 ;;;; 0	GameItem: Player1 ID=0
 ;;;; 1	GameItem: sword ID=1

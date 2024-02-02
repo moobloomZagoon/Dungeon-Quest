@@ -1,4 +1,4 @@
-;; Collision data export. Monday, 15 January 2024 15:42:03
+;; Collision data export. Saturday, 27 January 2024 01:38:14
 ;; GraphicBankID = 0x01
 ;; PaletteID = 0x10
 
@@ -98,11 +98,11 @@ Screen_Under_ba_info:
 ;; Byte 42: Monster 4 Origin Night Triggered (yyyyxxxx) if not placed then (111100xx) where x is: 01=random 10=edgespawn 11=disabled
 	.db #$f3
 ;; Byte 43: Monster 1 Day ID
-	.db #$1f
+	.db #$1d
 ;; Byte 44: Monster 2 Day ID
 	.db #$1b
 ;; Byte 45: Monster 3 Day ID
-	.db #$1f
+	.db #$1d
 ;; Byte 46: Monster 4 Day ID
 	.db #$12
 ;; Byte 47: Monster 1 Day Triggered ID

@@ -1,4 +1,4 @@
-;;;;;;;;;;;;;Text export info: 15/01/2024 15:42:03
+;;;;;;;;;;;;;Text export info: 27/01/2024 01:38:14
 Text0:    ;;;;; test 0
   .db _T, _E, _S, _T, _SPACE, _E, _N, _T, _R, _Y, _SPACE, _0, _SPACE, _BREAK
   .db _F, _O, _R, _SPACE, _T, _H, _E, _SPACE, _T, _H, _I, _R, _D, _SPACE, _T, _I, _M, _E, _SPACE, _C, _A, _U, _S, _E, _BREAK

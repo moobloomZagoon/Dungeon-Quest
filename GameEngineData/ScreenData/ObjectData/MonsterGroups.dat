@@ -4,7 +4,7 @@ MonsterGroups:
 	.db #$15, #$15, #$14, #$00  ;ID=2	villagenpc2
 	.db #$01, #$05, #$07, #$0b  ;ID=3	normal_bat_dalekish_ghoul_hopper
 	.db #$0c, #$1a, #$0c, #$0e  ;ID=4	bossses
-	.db #$02, #$11, #$0b, #$0f  ;ID=5	hard_dalek_hopper_bleurat_maybeslime
+	.db #$02, #$07, #$0b, #$0d  ;ID=5	hard_dalek_hopper_bleurat_maybeslime
 	.db #$0d, #$16, #$00, #$00  ;ID=6	testing
 	.db #$08, #$0a, #$15, #$00  ;ID=7	villagenpc1
 	.db #$12, #$13, #$00, #$00  ;ID=8	signs

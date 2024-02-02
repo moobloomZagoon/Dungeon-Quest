@@ -1,5 +1,5 @@
 ;; *************** CodeTargets.asm ***************
-;; Code Target data export. Monday, 15 January 2024 15:42:03
+;; Code Target data export. Saturday, 27 January 2024 01:38:14
 ROOT EQU Routines\BASE_4_5\
 SCR_MAIN EQU "Routines\BASE_4_5\System\MainASM.asm"
 SCR_HEADER EQU "Routines\BASE_4_5\System\Header.asm"
@@ -114,7 +114,7 @@ SCR_AI_0 EQU "Routines\BASE_4_5\Game\Subroutines\blank.asm"
 SCR_AI_1 EQU "Routines\BASE_4_5\Game\MOD_AdventureBase\AI_Scripts\MoveRandom_8Dir_AdventureBase.asm"
 SCR_AI_2 EQU "Routines\BASE_4_5\Game\AI_Scripts\StopMoving.asm"
 SCR_AI_3 EQU "Routines\BASE_4_5\Game\AI_Scripts\MoveTowardsPlayer.asm"
-SCR_AI_4 EQU "Routines\BASE_4_5\Game\Subroutines\blank.asm"
+SCR_AI_4 EQU "Routines\BASE_4_5\Game\custom AI\movetoplayerfourdirection.asm"
 SCR_AI_5 EQU "Routines\BASE_4_5\Game\custom AI\shoot_projectile_in_direction_fasing.asm"
 SCR_AI_6 EQU "Routines\BASE_4_5\Game\MOD_MazeBase\AI\MoveRandom_4Dir_MazeBase.asm"
 SCR_AI_7 EQU "Routines\BASE_4_5\Game\custom AI\slimeshoot.asm"

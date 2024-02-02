@@ -8,7 +8,7 @@ GameItem1_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
 
 ;; Monster: enemie projectile
 GameItem2_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$01
 
 ;; Monster: sword wavey
 GameItem3_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed

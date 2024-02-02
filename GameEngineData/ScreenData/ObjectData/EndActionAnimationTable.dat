@@ -8,7 +8,7 @@ GameItem1_EndAction:		;;EndAnimationType / EndActionType
 
 ;; Monster: enemie projectile
 GameItem2_EndAction:		;;EndAnimationType / EndActionType
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$60
 
 ;; Monster: sword wavey
 GameItem3_EndAction:		;;EndAnimationType / EndActionType
@@ -76,15 +76,15 @@ Object2_EndAction:
 
 ;; Monster: sand hopper
 Object3_EndAction:
-	.db #$01, #$01, #$03, #$01, #$00, #$00, #$00, #$66
+	.db #$01, #$01, #$03, #$01, #$00, #$00, #$00, #$00
 
 ;; Monster: stone dalek
 Object4_EndAction:
-	.db #$01, #$01, #$03, #$00, #$00, #$00, #$00, #$66
+	.db #$01, #$01, #$03, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: dalekish
 Object5_EndAction:
-	.db #$01, #$01, #$03, #$00, #$00, #$00, #$00, #$00
+	.db #$01, #$01, #$03, #$00, #$00, #$00, #$00, #$30
 
 ;; Monster: get sword npc
 Object6_EndAction:

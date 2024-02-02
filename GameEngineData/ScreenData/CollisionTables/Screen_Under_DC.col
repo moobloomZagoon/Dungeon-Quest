@@ -1,4 +1,4 @@
-;; Collision data export. Monday, 15 January 2024 15:42:03
+;; Collision data export. Saturday, 27 January 2024 01:38:14
 ;; GraphicBankID = 0x01
 ;; PaletteID = 0x1c
 
@@ -102,9 +102,9 @@ Screen_Under_dc_info:
 ;; Byte 44: Monster 2 Day ID
 	.db #$00
 ;; Byte 45: Monster 3 Day ID
-	.db #$1f
+	.db #$1d
 ;; Byte 46: Monster 4 Day ID
-	.db #$21
+	.db #$17
 ;; Byte 47: Monster 1 Day Triggered ID
 	.db #$00
 ;; Byte 48: Monster 2 Day Triggered ID

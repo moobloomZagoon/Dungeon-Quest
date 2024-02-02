@@ -629,10 +629,10 @@ Object4_Hi:
 ;; Animations = 2
 Object5_Lo:
 ;; AnimationType = Default
-	.db <Object5_2, <Object5_0
-	.db <Object5_4, <Object5_0
-	.db <Object5_1, <Object5_0
-	.db <Object5_3, <Object5_0
+	.db <Object5_2, <Object5_4
+	.db <Object5_4, <Object5_1
+	.db <Object5_1, <Object5_1
+	.db <Object5_3, <Object5_2
 
 ;; AnimationType = hurt
 	.db <Object5_0, <Object5_0
@@ -642,10 +642,10 @@ Object5_Lo:
 
 Object5_Hi:
 ;; AnimationType = Default
-	.db >Object5_2, >Object5_0
-	.db >Object5_4, >Object5_0
-	.db >Object5_1, >Object5_0
-	.db >Object5_3, >Object5_0
+	.db >Object5_2, >Object5_4
+	.db >Object5_4, >Object5_1
+	.db >Object5_1, >Object5_1
+	.db >Object5_3, >Object5_2
 
 ;; AnimationType = hurt
 	.db >Object5_0, >Object5_0
