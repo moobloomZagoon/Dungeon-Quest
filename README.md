@@ -9,16 +9,18 @@ This project holds the code and assets i creates for a NES game i made.
 
 The game is called Dungeon Quest and is created out of fun and an interest i have in Retro Gaming. The fact that i had to create a PWS (Profiel Werkstuk) for the Informatica subject in school did also help.
 
-The project was created with a tool names: Nesmaker.
+The project was created with a tool named: Nesmaker.
 [project page](https://github.com/chronosv2/NESMaker_Public_Code_Repository).
 [web page](https://www.thenew8bitheroes.com/).
 
-The music was created with a tool named Famitracker.
+The music was created with a tool with the name Famitracker.
 [project page](https://github.com/Dn-Programming-Core-Management/Dn-FamiTracker).
 [web page](https://famitracker.org/).
 
-if you want to see a shurt trailer of the game, you can find it [here](https://github.com/moobloomZagoon/Dungeon-Quest/blob/main/PWS%20Dungoen%20Quest%20trailer.mkv) it's a small .mkv video
-As i have used example code and assets as basis for some parts i am giving it back to the community. You cab create your own fork of the project and start using it as a basis for a game of your own.
+Besides the main project folders i've also created folders like sound and artwork in wich you can find those assets in directly usable format like .wav.
+
+if you want to see a short trailer of the game, you can find it [here](https://github.com/moobloomZagoon/Dungeon-Quest/blob/main/PWS%20Dungoen%20Quest%20trailer.mkv) it's a small .mkv video
+As i have used some example code and assets as basis for some parts i am giving it back to the community. You can create your own fork of the project and start using it as a basis for a game of your own.
 </td>
 </tr>
 </table>
