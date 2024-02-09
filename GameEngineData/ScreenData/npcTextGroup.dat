@@ -1,4 +1,4 @@
-;;;;;;;;;;;;;Text Group export info: 27/01/2024 01:38:14
+;;;;;;;;;;;;;Text Group export info: 09/02/2024 23:50:28
 TextGroup0:    ;;;;; villagebefore
 	.db #$10, #$11, #$12, #$13 
 
@@ -26,8 +26,8 @@ TextGroup7:    ;;;;; villagerafter
 TextGroup8:    ;;;;; signs
 	.db #$0c, #$0d, #$0e, #$0f 
 
-TextGroup9:    ;;;;; Group 9
-	.db #$00, #$00, #$00, #$00 
+TextGroup9:    ;;;;; dog
+	.db #$18, #$00, #$00, #$00 
 
 TextGroup10:    ;;;;; Group 10
 	.db #$00, #$00, #$00, #$00 

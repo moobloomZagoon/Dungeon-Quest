@@ -1,4 +1,4 @@
-;;;;;;;;;;;;;Text export info: 27/01/2024 01:38:14
+;;;;;;;;;;;;;Text export info: 09/02/2024 23:50:28
 Text0:    ;;;;; test 0
   .db _T, _E, _S, _T, _SPACE, _E, _N, _T, _R, _Y, _SPACE, _0, _SPACE, _BREAK
   .db _F, _O, _R, _SPACE, _T, _H, _E, _SPACE, _T, _H, _I, _R, _D, _SPACE, _T, _I, _M, _E, _SPACE, _C, _A, _U, _S, _E, _BREAK
@@ -61,37 +61,31 @@ Text15:    ;;;;; sign4
 Text16:    ;;;;; villager1_before
   .db _SPACE, _I, _SPACE, _H, _E, _A, _R, _D, _SPACE, _S, _O, _M, _E, _T, _H, _I, _N, _G, _BREAK
   .db _SPACE, _H, _A, _P, _P, _E, _N, _E, _D, _SPACE, _T, _O, _SPACE, _T, _H, _E, _SPACE, _O, _L, _D, _SPACE, _BREAK
-  .db _SPACE, _D, _U, _N, _G, _E, _O, _N, _SPACE, _L, _E, _F, _T, _SPACE, _O, _F, _SPACE, _T, _H, _E, _SPACE, _BREAK
+  .db _SPACE, _D, _U, _N, _G, _E, _O, _N, _SPACE, _R, _I, _G, _H, _T, _SPACE, _O, _F, _SPACE, _T, _H, _E, _SPACE, _BREAK
   .db _SPACE, _V, _I, _L, _L, _A, _G, _E, _BREAK
   .db _SPACE, _MORE, _BREAK
   .db _SPACE, _S, _O, _M, _E, _O, _N, _E, _SPACE, _S, _H, _O, _U, _L, _D, _SPACE, _R, _E, _A, _L, _L, _Y, _SPACE, _BREAK
   .db _SPACE, _C, _H, _E, _C, _K, _SPACE, _I, _T, _SPACE, _O, _U, _T, _END
 Text17:    ;;;;; villager2_before
   .db _A, _N, _Y, _SPACE, _N, _E, _W, _S, _SPACE, _F, _R, _O, _M, _SPACE, _T, _H, _A, _T, _SPACE, _O, _L, _D, _BREAK
-  .db _C, _A, _V, _E, _SPACE, _L, _E, _F, _T, _SPACE, _O, _F, _SPACE, _H, _E, _R, _E, _QUESTION, _END
+  .db _C, _A, _V, _E, _SPACE, _R, _I, _G, _H, _T, _SPACE, _O, _F, _SPACE, _H, _E, _R, _E, _QUESTION, _END
 Text18:    ;;;;; villager3_before
   .db _H, _A, _V, _E, _SPACE, _Y, _O, _U, _SPACE, _H, _E, _A, _R, _D, _SPACE, _I, _T, _SPACE, _Y, _E, _T, _QUESTION, _MORE, _BREAK
   .db _BREAK
-  .db _S, _O, _M, _E, _T, _H, _I, _N, _G, _SPACE, _H, _A, _P, _P, _E, _N, _E, _D, _SPACE, _L, _E, _F, _T, _BREAK
+  .db _S, _O, _M, _E, _T, _H, _I, _N, _G, _SPACE, _H, _A, _P, _P, _E, _N, _E, _D, _SPACE, _R, _I, _G, _H, _T, _BREAK
   .db _O, _F, _SPACE, _H, _E, _R, _E, _SPACE, _B, _U, _T, _SPACE, _N, _O, _B, _O, _D, _Y, _SPACE, _I, _S, _SPACE, _BREAK
   .db _B, _R, _A, _V, _E, _SPACE, _E, _N, _O, _U, _F, _G, _H, _SPACE, _T, _O, _SPACE, _BREAK
-  .db _A, _C, _T, _U, _A, _L, _L, _Y, _SPACE, _L, _O, _O, _K, _END
+  .db _G, _O, _SPACE, _L, _O, _O, _K, _END
 Text19:    ;;;;; villager4_before
-  .db _V, _I, _L, _L, _A, _G, _E, _R, _SPACE, _4, _SPACE, _H, _E, _R, _E, _EXCLAMATION, _EXCLAMATION, _END
+  .db _S, _O, _M, _E, _T, _H, _I, _N, _G, _SPACE, _H, _A, _P, _P, _E, _N, _E, _D, _BREAK
+  .db _E, _A, _S, _T, _SPACE, _O, _F, _SPACE, _H, _E, _R, _E, _END
 Text20:    ;;;;; village1_after
-  .db _S, _O, _SPACE, _W, _H, _A, _T, _SPACE, _W, _A, _S, _SPACE, _I, _T, _END
+  .db _S, _O, _M, _E, _T, _H, _I, _N, _G, _SPACE, _H, _A, _P, _P, _E, _N, _E, _D, _BREAK
+  .db _W, _E, _S, _T, _SPACE, _O, _F, _SPACE, _H, _E, _R, _E, _END
 Text21:    ;;;;; village2_after
-  .db _V, _I, _L, _L, _A, _G, _E, _R, _SPACE, _2, _SPACE, _A, _F, _T, _E, _R, _END
+  .db _G, _O, _SPACE, _W, _E, _S, _T, _EXCLAMATION, _END
 Text22:    ;;;;; village3_after
-  .db _H, _E, _Y, _SPACE, _H, _O, _W, _V, _E, _SPACE, _Y, _O, _U, _SPACE, _B, _E, _E, _N, _SPACE, _D, _O, _I, _N, _G, _BREAK
-  .db _H, _A, _V, _E, _N, _T, _SPACE, _S, _E, _E, _N, _SPACE, _Y, _O, _U, _SPACE, _I, _N, _SPACE, _A, _BREAK
-  .db _W, _H, _I, _L, _E, _MORE, _BREAK
-  .db _A, _N, _Y, _W, _A, _Y, _SPACE, _T, _H, _E, _SPACE, _O, _L, _D, _SPACE, _M, _I, _N, _E, _SPACE, _W, _E, _S, _T, _BREAK
-  .db _O, _P, _E, _N, _E, _D, _SPACE, _U, _P, _BREAK
-  .db _MORE, _BREAK
-  .db _S, _I, _N, _C, _E, _SPACE, _Y, _O, _U, _R, _SPACE, _A, _P, _P, _E, _A, _R, _E, _N, _T, _L, _Y, _BREAK
-  .db _S, _O, _M, _E, _SPACE, _K, _I, _N, _D, _SPACE, _O, _F, _SPACE, _A, _D, _V, _E, _N, _T, _U, _R, _E, _R, _BREAK
-  .db _G, _O, _SPACE, _H, _A, _V, _E, _SPACE, _A, _SPACE, _L, _O, _O, _K, _END
+  .db _H, _E, _Y, _END
 Text23:    ;;;;; village4_after
   .db _N, _O, _T, _SPACE, _A, _G, _A, _I, _N, _BREAK
   .db _W, _H, _A, _T, _S, _SPACE, _E, _V, _E, _N, _SPACE, _H, _A, _P, _P, _E, _N, _I, _N, _G, _SPACE, _BREAK

@@ -1,4 +1,4 @@
-;; Collision data export. Saturday, 27 January 2024 01:38:14
+;; Collision data export. Friday, 9 February 2024 23:50:27
 ;; GraphicBankID = 0x01
 ;; PaletteID = 0x1a
 
@@ -169,7 +169,7 @@ Screen_Over_77_info:
 ;; Byte 79: Tileset Layout (xxxxyyyy) (x=bank / y=tileset
 	.db #$38
 ;; Byte 80: Tileset Layout (xxxxyyyy) (x=bank / y=tileset
-	.db #$31
+	.db #$37
 ;; Byte 81: Tileset Layout (xxxxyyyy) (x=bank / y=tileset
 	.db #$32
 ;; Byte 82: Tileset Layout (xxxxyyyy) (x=bank / y=tileset

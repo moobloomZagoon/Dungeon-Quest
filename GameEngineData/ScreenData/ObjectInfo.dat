@@ -145,7 +145,7 @@ GameItem3_1:
 GameItem4_0:
 .db #$2; frame count
 .db #$2c, #%00000000
-.db #$2c, #%00000010
+.db #$2c, #%00000011
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;; 5 GameItem: explodingprojectile

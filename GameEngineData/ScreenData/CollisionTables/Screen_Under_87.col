@@ -1,4 +1,4 @@
-;; Collision data export. Saturday, 27 January 2024 01:38:14
+;; Collision data export. Friday, 9 February 2024 23:50:28
 ;; GraphicBankID = 0x01
 ;; PaletteID = 0x10
 
@@ -21,7 +21,7 @@
 
 Screen_Under_87_info:
 ;; Byte 1: ScreenType 
-	.db #$00
+	.db #$2c
 ;; Byte 2: Bank info screen bank(4bits)/graphic bank(2 bits)/00(2bits) CHANGED ***** NightTriggeredMonsterGroupByte
 	.db #$00
 ;; Byte 3: ScreenPaletteId

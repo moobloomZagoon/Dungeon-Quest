@@ -1,5 +1,5 @@
 ;; *************** HUD_DEFINES.dat ***************
-;; HUD defines export. Saturday, 27 January 2024 01:38:15
+;; HUD defines export. Friday, 9 February 2024 23:50:28
 HUD__0_0_STRING:
 	.db #$05, #$06, #$FE
 	.db #$07, #$08, #$FF

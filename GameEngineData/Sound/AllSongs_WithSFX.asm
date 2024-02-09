@@ -2117,7 +2117,7 @@ sfx_extralive_square2:
 
 
 sfx_extralive_square2_0:
-	.db STI,23,SLL,6,G4,G4,A4,B4,SLL,0,C5
+	.db STI,23,SLL,6,G4,G4,A4,SLL,0,B4
 	.db RET
 
 

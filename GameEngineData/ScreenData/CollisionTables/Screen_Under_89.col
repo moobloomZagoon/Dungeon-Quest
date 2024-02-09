@@ -1,4 +1,4 @@
-;; Collision data export. Saturday, 27 January 2024 01:38:14
+;; Collision data export. Friday, 9 February 2024 23:50:28
 ;; GraphicBankID = 0x01
 ;; PaletteID = 0x10
 
@@ -21,7 +21,7 @@
 
 Screen_Under_89_info:
 ;; Byte 1: ScreenType 
-	.db #$00
+	.db #$85
 ;; Byte 2: Bank info screen bank(4bits)/graphic bank(2 bits)/00(2bits) CHANGED ***** NightTriggeredMonsterGroupByte
 	.db #$00
 ;; Byte 3: ScreenPaletteId
@@ -44,9 +44,9 @@ Screen_Under_89_info:
 ;; Byte 12: Monster 1 Origin Day Normal (yyyyxxxx) if not placed then (111100xx) where x is: 01=random 10=edgespawn 11=disabled
 	.db #$8d
 ;; Byte 13: Monster 2 Origin Day Normal (yyyyxxxx) if not placed then (111100xx) where x is: 01=random 10=edgespawn 11=disabled
-	.db #$f1
+	.db #$48
 ;; Byte 14: Monster 3 Origin Day Normal (yyyyxxxx) if not placed then (111100xx) where x is: 01=random 10=edgespawn 11=disabled
-	.db #$f1
+	.db #$c2
 ;; Byte 15: Monster 1 Origin Night Normal (yyyyxxxx) if not placed then (111100xx) where x is: 01=random 10=edgespawn 11=disabled
 	.db #$f3
 ;; Byte 16: Monster 2 Origin Night Normal (yyyyxxxx) if not placed then (111100xx) where x is: 01=random 10=edgespawn 11=disabled
@@ -90,7 +90,7 @@ Screen_Under_89_info:
 ;; Byte 38: StringPointer Night Triggered 
 	.db #$00
 ;; Byte 39: Monster 4 Origin Day Normal (yyyyxxxx) if not placed then (111100xx) where x is: 01=random 10=edgespawn 11=disabled
-	.db #$f1
+	.db #$c8
 ;; Byte 40: Monster 4 Origin Night Normal (yyyyxxxx) if not placed then (111100xx) where x is: 01=random 10=edgespawn 11=disabled
 	.db #$f3
 ;; Byte 41: Monster 4 Origin Day Triggered (yyyyxxxx) if not placed then (111100xx) where x is: 01=random 10=edgespawn 11=disabled
@@ -102,7 +102,7 @@ Screen_Under_89_info:
 ;; Byte 44: Monster 2 Day ID
 	.db #$1b
 ;; Byte 45: Monster 3 Day ID
-	.db #$1d
+	.db #$1b
 ;; Byte 46: Monster 4 Day ID
 	.db #$12
 ;; Byte 47: Monster 1 Day Triggered ID

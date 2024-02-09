@@ -1,5 +1,5 @@
 ;; *************** HUD_INCLUDES.dat ***************
-;; HUD includes export. Saturday, 27 January 2024 01:38:15
+;; HUD includes export. Friday, 9 February 2024 23:50:28
 
 DrawTilesDirect #HUD_BANK, HUD__0_0_STRING, #19, #1, #HUD_OFFSET
 DrawTilesDirect #HUD_BANK, HUD__0_1_STRING, #1, #1, #HUD_OFFSET
